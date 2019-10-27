@@ -48,6 +48,7 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  assembled_matrix[0][2] = "Tiny Ewell"
-  assembled_matrix
+  local_copy_of_matrix = assembled_matrix
+  local_copy_of_matrix[0][2] = "Tiny Ewell"
+  local_copy_of_matrix
 end
